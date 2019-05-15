@@ -1,5 +1,5 @@
 #include <iostream>
-#include "list.h"
+#include "header.h"
 
 using namespace std;
 
@@ -41,6 +41,9 @@ int main()
       ( c1 == 1 ) ? s->show() : q->show();
 
   } while ( c2 != 0 );
+  
+  delete s;
+  delete q;
 
   return 0;
 }
